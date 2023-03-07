@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import statistics
 
 data = pd.read_csv("country_vaccination_stats.csv")
