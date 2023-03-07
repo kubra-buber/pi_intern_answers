@@ -169,7 +169,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.3, rando
 
 #train the model
 
-model = LogisticRegression(solver = 'liblinear', random_state = 0)
+model = LogisticRegression(solver = 'liblinear', random_state = 0) # I choose logistic regression because it is a classification technique that we need
 model.fit(X_train, Y_train)
 
 #evaluate the model
