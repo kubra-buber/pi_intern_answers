@@ -149,6 +149,7 @@ plt.ylim(-8, 10)
 plt.xlabel("f3", fontsize = 20)
 plt.ylabel("f4", fontsize = 20)
 plt.show()
+#We see here that erase the empty input lines did not change the image. So there is no problem in deleting empty input lines
 
 #create data sets for ML model
 
